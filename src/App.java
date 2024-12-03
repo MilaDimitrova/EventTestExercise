@@ -5,14 +5,14 @@ public class App {
 
         try{
             concert1.sellTickets(240);
-            System.out.println("240 tickets sold for Ariana Grande");
+            System.out.println("240 tickets sold for Ariana Grande.");
         }catch(NoMoreTicketException e){
             System.out.println(e.getMessage());
         }
 
         try{
             match1.sellTickets(3000);
-            System.out.println("3000 tickets sold for CSKA/Levski");
+            System.out.println("3000 tickets sold for CSKA/Levski.");
 
         }catch(NoMoreTicketException e){
             System.out.printf(e.getMessage());
